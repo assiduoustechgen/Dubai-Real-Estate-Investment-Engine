@@ -74,4 +74,4 @@ IF(
 
 ## How to View the Project
 * **[View the Dashboard Presentation (PDF)](Dubai%20Realty%20Official%20Report.pdf)** for a high-resolution look at the visuals and matrix layouts.
-* The raw `.pbix` file is included in this repository for data model and DAX code review.
+* [The raw `.pbix` file can be accessed using this Google Drive Link] (https://drive.google.com/file/d/1tnsNtN9VXi9vs0Ss0Dclo7C14LMB1KIX/view?usp=sharing)
