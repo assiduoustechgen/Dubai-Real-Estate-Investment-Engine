@@ -7,8 +7,9 @@
 ## Summary
 A strategic, end-to-end data model analyzing over 500,000 historical real estate transactions in the Dubai market. This project moves beyond standard descriptive reporting to provide **prescriptive analytics**, identifying undervalued and high-growth neighborhoods for strategic investment and urban planning. 
 
-![Main Dashboard](images/main_dashboard.png)
-*(Note: Replace with your Magic Quadrant screenshot)*
+![Main Overview](images/main_dash.png)
+![Area-wise Analysis](images/page_2.png)
+![Root Cause Analysis and Market Volatility](page_3.png)
 
 ## Data Provenance & Reproducibility
 Due to GitHub file size constraints and data governance best practices, the raw 1GB transaction dataset is not hosted in this repository. 
@@ -36,8 +37,7 @@ Instead of compromising statistical accuracy by reverting to simple averages, I 
 * Pre-calculated the `meter_sale_price` medians at the aggregate level.
 * Reduced query evaluation time to milliseconds and RAM utilization to near-zero while preserving flawless, dynamic filtering for the end-user.
 
-![Star Schema Data Model](images/data_model.png)
-*(Note: Replace with your Data Model screenshot)*
+![Star Schema Data Model](images/star_schema.png)
 
 ---
 
@@ -65,10 +65,10 @@ IF(
 ---
 
 ## 4. Key Visualizations & Features
-* **The "Magic Quadrant" Matrix:** A dynamically color-coded scatter plot featuring calculated median crosshairs. Automatically isolates and highlights the "Hidden Gem" properties (Top-Left Quadrant: Below Median Price, Above Median Growth).
-* **AI Root-Cause Analysis:** Integrated Power BI's AI Decomposition Tree to allow users to conduct dynamic Exploratory Data Analysis (EDA), instantly identifying whether property type, usage, or transit proximity is the highest contributing factor to price variance.
-* **Spatial Heat Mapping:** Native geospatial mapping highlighting transaction volume and investment scores across Dubai's physical geography.
+* **The Magic Quadrant Matrix:** A dynamically color-coded scatter plot featuring calculated median crosshairs to isolate "Hidden Gem" properties based on YoY Growth and Price Difference.
+* **AI Root-Cause & Key Influencer Analysis:** Integrated Power BI's AI Decomposition Tree and Key Influencers visuals to conduct dynamic Exploratory Data Analysis (EDA). This instantly identifies whether property type, usage, or transit proximity is the highest contributing factor to price variance and investment potential.
 * **Rank Volatility (Ribbon Chart):** Visualizes the historical disruption of the Dubai market, mapping exactly when emerging neighborhoods overtook legacy districts in value.
+* **Market Worth Tracking:** High-level executive overviews tracking historical market capitalization against the city's average price per square meter.
 
 ---
 
