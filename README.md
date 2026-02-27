@@ -7,8 +7,8 @@
 ## Summary
 A strategic, end-to-end data model analyzing over 500,000 historical real estate transactions in the Dubai market. This project moves beyond standard descriptive reporting to provide **prescriptive analytics**, identifying undervalued and high-growth neighborhoods for strategic investment and urban planning. 
 
-![Main Overview](images/main_dash.png)
-![Area-wise Analysis](images/page_2.png)
+![Main Overview](main_dash.png)
+![Area-wise Analysis](page_2.png)
 ![Root Cause Analysis and Market Volatility](page_3.png)
 
 ## Data Provenance & Reproducibility
@@ -37,7 +37,7 @@ Instead of compromising statistical accuracy by reverting to simple averages, I 
 * Pre-calculated the `meter_sale_price` medians at the aggregate level.
 * Reduced query evaluation time to milliseconds and RAM utilization to near-zero while preserving flawless, dynamic filtering for the end-user.
 
-![Star Schema Data Model](images/star_schema.png)
+![Star Schema Data Model](star_schema.png)
 
 ---
 
